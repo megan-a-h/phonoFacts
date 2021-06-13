@@ -170,10 +170,10 @@ class PhonoFactDisplay extends React.Component{
         <div>
 
         
-        <div class="row align-items-center text-center ">
+        <div className="row align-items-center text-center ">
             
-            <img class="col-md-6 phonoPic align-items-center text-center img-fluid" src={picInView} />
-            <div class="col-md-6 phonoText">
+            <img className="col-md-6 phonoPic align-items-center text-center img-fluid" src={picInView} />
+            <div className="col-md-6 phonoText">
               <p id="text">{factInView}</p>
               <p id="author">{creditInView}</p>
             </div>
@@ -181,9 +181,9 @@ class PhonoFactDisplay extends React.Component{
           </div>
             <br />
     
-            <div class="text-center">
+            <div className="text-center">
                  {/*button calls the makeRandom function to generate a new random index to display a new fact */}
-             <button class="btn  phonoButton" id="new-quote" onClick={this.makeRandom}>New Fact!</button>
+             <button className="btn  phonoButton" id="new-quote" onClick={this.makeRandom}>New Fact!</button>
              </div>
         
         
