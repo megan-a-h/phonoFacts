@@ -1,5 +1,5 @@
 
-/*Back end code for phonoFacts webpage is below.  This webpage generates a random fact about phonographs with an accompanying picture when the user clicks a button */
+/*Code for phonoFacts webpage is below.  This webpage generates a random fact about phonographs with an accompanying picture when the user clicks a button */
 
 /*array of objects called phonoFacts holds a phonograph fact, a picture to accompany, the source of the image and fact and an id number for the fact */
 const phonoFacts = [
